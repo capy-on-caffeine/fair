@@ -1,8 +1,7 @@
-# React + Vite
+# Tracify (work in progress)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+it's an app that helps us find lost objects
 
-Currently, two official plugins are available:
+a user puts in keywords of what their object looks like
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+then the user who finds the object clicks the pic and uploads it. llava endpoint gives us keywords for that and checks if it matches keyword of any object. If such an object is found, the user is notified.
